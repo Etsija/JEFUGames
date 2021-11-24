@@ -4,17 +4,12 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "tbl_game_event")
-data class GameEvent(
+@Entity(tableName = "tbl_game_event_type")
+data class GameEventType(
     @PrimaryKey(autoGenerate = true)
     var id: Long,
-
-    // Foreign keys
-    val id_game: Long,
-    val id_team: Long,
-    val id_event_type: Long,
-
-    val gametime: Int,
+    val description: String,
+    val points: Int,
     @ColumnInfo(name = "created_at")
     var createdAt: Long,
     @ColumnInfo(name = "modified_at")

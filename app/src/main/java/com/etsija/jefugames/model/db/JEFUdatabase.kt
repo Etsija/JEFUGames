@@ -1,22 +1,19 @@
 package com.etsija.jefugames.model.db
 
 import android.content.Context
-import android.os.AsyncTask
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import androidx.sqlite.db.SupportSQLiteDatabase
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.withContext
-import java.util.concurrent.Executors
 
 @Database(
-    entities = [Team::class, Game::class, GameEvent::class],
-    version = 10)
+    entities = [Team::class, Game::class, GameEvent::class, GameEventType::class],
+    version = 13)
 abstract class JEFUdatabase: RoomDatabase() {
 
-    abstract fun jefuDao(): JEFUDao
+    abstract fun teamDao(): TeamDao
+    abstract fun gameDao(): GameDao
+    abstract fun gameEventDao(): GameEventDao
+    abstract fun gameEventTypeDao(): GameEventTypeDao
 
     companion object {
         @Volatile
