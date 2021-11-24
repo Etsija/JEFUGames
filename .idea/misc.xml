@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/fragment_email.xml" value="0.2776268115942029" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/fragment_game.xml" value="0.2776268115942029" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/fragment_gamelog.xml" value="0.2776268115942029" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/fragment_settings.xml" value="0.2776268115942029" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/fragment_team.xml" value="0.34479166666666666" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/fragment_team_add_edit.xml" value="0.28854166666666664" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/fragment_team_edit.xml" value="0.5" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/model_empty_state.xml" value="0.28854166666666664" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/model_epoxy_loading.xml" value="0.3411458333333333" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/model_header_team.xml" value="0.3333333333333333" />
+        <entry key="..\:/AOmat/Dropbox/Java/Android/JEFUGames/app/src/main/res/layout/model_team.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
